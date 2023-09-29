@@ -9,7 +9,7 @@
     <title>Navbar</title>
 </head>
 <body>
-    <nav class="p-2 bg-white shadow-red-300 shadow-md m-4 rounded-3xl md:p-5 md:py-0 md:rounded-full md:flex md:items-center md:justify-between">
+    <nav class="p-2 bg-white shadow-slate-500 shadow-md m-4 rounded-3xl md:p-5 md:py-0 md:rounded-full md:flex md:items-center md:justify-between">
         <div class="flex justify-between items-center">
             <a href="index.php"><img src="./img/logo.png" alt="TasteOfPHL" class="h-10 md:h-14"></a>
 
