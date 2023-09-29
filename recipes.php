@@ -53,7 +53,7 @@
                 <h2 class="text-white text-sm flex mt-5 ml-4 md:text-lg lg:text-base">Sinigang</h2>
             </div>
             <div class="text-white mt-28 text-justify mx-5 text-xs">
-                <p>Filipino Beef Kare-Kare is a rich and flavorful stew made with tender beef, vegetables, and a peanut sauce. Here's a recipe for 2 servings:</p>
+                <p>Sinigang is a popular Filipino sour soup known for its tangy and savory flavors. Here's a recipe for 2 servings of Pork Sinigang:</p>
             </div>
             <div>
                 <a href="#" class="show-modal py-2 text-white text-xs flex justify-center hover:bg-red-950 rounded-3xl md:mx-10" data-modal="4">View Recipe</a>
@@ -65,7 +65,7 @@
                 <h2 class="text-white text-sm flex mt-5 ml-4 md:text-lg lg:text-xl">Sisig</h2>
             </div>
             <div class="text-white mt-28 text-justify mx-5 text-xs">
-                <p>Filipino Beef Kare-Kare is a rich and flavorful stew made with tender beef, vegetables, and a peanut sauce. Here's a recipe for 2 servings:</p>
+                <p>Sisig is a flavorful Filipino dish made from chopped and seasoned pork, typically served on a sizzling plate. Here's a recipe for 2 servings of Pork Sisig:</p>
             </div>
             <div>
                 <a href="#" class="show-modal py-2 text-white text-xs flex justify-center hover:bg-red-950 rounded-3xl md:mx-10" data-modal="5">View Recipe</a>
@@ -75,7 +75,7 @@
 
     <!-- View Adobong Baboy Recipe -->
 
-    <div class="modal h-screen w-auto m-5 fixed flex top-0 md:right-0 justify-center items-center hidden md:w-full" id="show-modal-1">
+    <div class="modal h-auto w-auto m-5 fixed flex top-0 md:right-0 justify-center items-center hidden md:w-full md:h-screen" id="show-modal-1">
         <div class="bg-slate-200 rounded-2xl text-xs">
             <div class="m-5">
                 <p>Ingredients:</p>
@@ -92,13 +92,31 @@
                         <li>Salt to taste</li>
                     </ul>
             </div>
-            <div>
+            <div class="m-5">
                 <p>Instructions:</p>
-                <ol>
+                <ol class="ml-10 list-decimal">
                     <li>Marinate the Pork:</li>
+                        <ul class="ml-5 list-disc">
+                            <li>In a bowl, mix pork, garlic, soy sauce, vinegar, bay leaf, and peppercorns.</li>
+                            <li>Let it marinate for at least 30 minutes.</li>
+                        </ul>
                     <li>Cook the Adobong Baboy:</li>
+                        <ul class="ml-5 list-disc">
+                            <li>Heat a pan over medium-high heat and add oil.</li>
+                            <li>Sauté onions until translucent.</li>
+                            <li>Add the marinated pork (including marinade) and cook until browned (about 5-7 minutes).</li>
+                        </ul>
                     <li>Simmer:</li>
+                        <ul class="ml-5 list-disc">
+                            <li>Pour in water and bring it to a boil.</li>
+                            <li>Reduce heat to low, cover, and simmer for 30-40 minutes until pork is tender, stirring occasionally.</li>
+                        </ul>
                     <li>Season and Serve:</li>
+                        <ul class="ml-5 list-disc">
+                            <li>Taste the sauce and adjust with a pinch of salt or more vinegar if needed.</li>
+                            <li>Let it marinate for at least 30 minutes.</li>
+                            <li>Serve your Adobong Baboy with steamed rice.</li>
+                        </ul>
                 </ol>
             </div>
             <div class="flex justify-end items-center w-100 border-t p-3">
@@ -113,7 +131,7 @@
         <div class="bg-slate-200 rounded-2xl text-xs">
             <div class="m-5">
                 <p>Ingredients:</p>
-                    <ul class="list-disc -tracking-tighter">
+                    <ul class="ml-10 list-disc -tracking-tighter">
                         <li>1/2 pound (about 225g) pork belly, cut into bite-sized pieces</li>
                         <li>3 cloves garlic, minced</li>
                         <li>1 small onion, chopped</li>
@@ -126,9 +144,9 @@
                         <li>Salt to taste</li>
                     </ul>
             </div>
-            <div>
+            <div class="m-5">
                 <p>Instructions:</p>
-                <ol>
+                <ol class="ml-10 list-decimal">
                     <li>Marinate the Pork:</li>
                     <li>Cook the Adobong Baboy:</li>
                     <li>Simmer:</li>
@@ -147,7 +165,7 @@
         <div class="bg-slate-200 rounded-2xl text-xs">
             <div class="m-5">
                 <p>Ingredients:</p>
-                    <ul class="list-disc -tracking-tighter">
+                    <ul class="ml-10 list-disc -tracking-tighter">
                         <li>1/2 pound (about 225g) pork belly, cut into bite-sized pieces</li>
                         <li>3 cloves garlic, minced</li>
                         <li>1 small onion, chopped</li>
@@ -160,9 +178,9 @@
                         <li>Salt to taste</li>
                     </ul>
             </div>
-            <div>
+            <div class="m-5">
                 <p>Instructions:</p>
-                <ol>
+                <ol class="ml-10 list-decimal">
                     <li>Marinate the Pork:</li>
                     <li>Cook the Adobong Baboy:</li>
                     <li>Simmer:</li>
@@ -181,7 +199,7 @@
         <div class="bg-slate-200 rounded-2xl text-xs">
             <div class="m-5">
                 <p>Ingredients:</p>
-                    <ul class="list-disc -tracking-tighter">
+                    <ul class="ml-10 list-disc -tracking-tighter">
                         <li>1/2 pound (about 225g) pork belly, cut into bite-sized pieces</li>
                         <li>3 cloves garlic, minced</li>
                         <li>1 small onion, chopped</li>
@@ -194,9 +212,9 @@
                         <li>Salt to taste</li>
                     </ul>
             </div>
-            <div>
+            <div class="m-5">
                 <p>Instructions:</p>
-                <ol>
+                <ol class="ml-10 list-decimal">
                     <li>Marinate the Pork:</li>
                     <li>Cook the Adobong Baboy:</li>
                     <li>Simmer:</li>
@@ -215,7 +233,7 @@
         <div class="bg-slate-200 rounded-2xl text-xs">
             <div class="m-5">
                 <p>Ingredients:</p>
-                    <ul class="list-disc -tracking-tighter">
+                    <ul class="ml-10 list-disc -tracking-tighter">
                         <li>1/2 pound (about 225g) pork belly, cut into bite-sized pieces</li>
                         <li>3 cloves garlic, minced</li>
                         <li>1 small onion, chopped</li>
@@ -228,10 +246,14 @@
                         <li>Salt to taste</li>
                     </ul>
             </div>
-            <div>
+            <div class="5">
                 <p>Instructions:</p>
-                <ol>
+                <ol class="ml-10 list-decimal">
                     <li>Marinate the Pork:</li>
+                        <ul>
+                            <li>In a bowl, mix pork, garlic, soy sauce, vinegar, bay leaf, and peppercorns.</li>
+                            <li>Let it marinate for at least 30 minutes.</li>
+                        </ul>
                     <li>Cook the Adobong Baboy:</li>
                     <li>Simmer:</li>
                     <li>Season and Serve:</li>
@@ -265,5 +287,15 @@
         });
 
     </script>
+
+<style>
+/* Add a class to style the modal content for small screens */
+@media (max-width: 768px) {
+    .modal-scroll {
+        max-height: 80vh; /* You can adjust the maximum height as needed */
+        overflow-y: auto;
+    }
+}
+</style>
 </body>
 </html>

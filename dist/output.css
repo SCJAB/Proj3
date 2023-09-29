@@ -679,10 +679,6 @@ video {
   top: 80px;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
 .isolate {
   isolation: isolate;
 }
@@ -800,6 +796,14 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
 }
 
 .box-border {
@@ -923,10 +927,6 @@ video {
 
 .h-52 {
   height: 13rem;
-}
-
-.h-96 {
-  height: 24rem;
 }
 
 .h-\[100\%\] {
@@ -1198,6 +1198,10 @@ video {
 
 .list-outside {
   list-style-position: outside;
+}
+
+.list-decimal {
+  list-style-type: decimal;
 }
 
 .list-disc {
@@ -2865,11 +2869,6 @@ video {
     z-index: auto;
   }
 
-  .md\:mx-32 {
-    margin-left: 8rem;
-    margin-right: 8rem;
-  }
-
   .md\:mx-10 {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
@@ -2895,16 +2894,8 @@ video {
     height: 24rem;
   }
 
-  .md\:h-auto {
-    height: auto;
-  }
-
-  .md\:h-56 {
-    height: 14rem;
-  }
-
-  .md\:h-60 {
-    height: 15rem;
+  .md\:h-screen {
+    height: 100vh;
   }
 
   .md\:w-56 {
@@ -2983,10 +2974,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:h-auto {
-    height: auto;
-  }
-
   .lg\:h-60 {
     height: 15rem;
   }
@@ -3008,6 +2995,11 @@ video {
          column-gap: 1.25rem;
   }
 
+  .lg\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
   .lg\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -3016,16 +3008,6 @@ video {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .lg\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
   }
 }
 

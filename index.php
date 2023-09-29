@@ -14,7 +14,7 @@
     </div>
 
     <div class="flex justify-center rounded-3xl mx-5 md:mx-none">
-        <div class="w-96 flex flex-row overflow-x-scroll snap-x snap-mandatory rounded-3xl">
+        <div class="w-96 flex flex-row overflow-x-scroll snap-x snap-mandatory rounded-3xl content-end">
             <div class="w-full flex-shrink-0 snap-start mr-10">
                 <img src="./img/Adobong_Baboy_back.jpg" class="rounded-3xl">
             </div>
