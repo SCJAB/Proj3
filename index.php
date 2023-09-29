@@ -10,11 +10,11 @@
     <?php include './components/navbar.php'; ?>
 
     <div>
-        <h1 class="flex justify-center text-3xl">Welcome to TasteOfPHL</h1>
+        <h1 class="flex justify-center text-2xl font-bold mb-32 mt-16 md:text-5xl">Welcome to <br class="md:hidden"> TasteOfPHL</h1>
     </div>
 
-    <div class="flex justify-center rounded-3xl mx-5 md:mx-none">
-        <div class="w-96 flex flex-row overflow-x-scroll snap-x snap-mandatory rounded-3xl content-end">
+    <div class="w-60 mx-auto flex justify-center items-center rounded-3xl md:w-full">
+        <div class="w-96 flex flex-row overflow-x-scroll snap-x snap-mandatory rounded-3xl">
             <div class="w-full flex-shrink-0 snap-start mr-10">
                 <img src="./img/Adobong_Baboy_back.jpg" class="rounded-3xl">
             </div>
