@@ -8,11 +8,11 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <title>Home</title>
 </head>
-<body class="bg-red-100">
+<body class="bg-red-100 mb-16">
     <?php include './components/navbar.php'; ?>
 
     <div>
-        <h1 class="flex justify-center text-2xl font-bold mb-32 mt-16 md:text-5xl">Welcome to <br class="md:hidden"> TasteOfPHL</h1>
+        <h1 class="flex justify-center text-2xl font-bold mb-16 mt-16 md:text-5xl">Welcome to <br class="md:hidden"> TasteOfPHL</h1>
     </div>
 
     <div class="bg-slate-400 text-slate-400 mb-5">.</div>
@@ -56,6 +56,7 @@
                 </div>
             </div>
         </div>
+    <?php include './components/footer.php'; ?>
 </body>
 
 </html>

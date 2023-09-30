@@ -9,7 +9,7 @@
 <body class="bg-red-100">
     <?php include './components/navbar.php'; ?>
 
-    <div class="grid grid-cols-1 mt-10 mx-10 gap-y-10 justify-items-center md:grid-cols-2 lg:grid-cols-5 lg:gap-x-5">
+    <div class="grid grid-cols-1 mt-10 mx-10 gap-y-10 justify-items-center md:grid-cols-2 md:gap-x-5 lg:grid-cols-5 lg:gap-x-5 mb-20 md:mb-0">
         <div class="rounded-2xl bg-red-950 h-[100%] w-full relative shadow-xl md:h-96 md:w-auto lg:w-full lg:h-60 hover:ring-4 hover:ring-red-400 hover:bg-red-400">
             <div class="h-auto w-44 top-4 left-4 flex items-stretch absolute md:w-56 lg:w-96">
                 <img src="./img/Adobong_Baboy.jpg" class="rounded-full h-20 w-20"/>
@@ -316,6 +316,8 @@
             </div>
         </div>
     </div>
+
+    <?php include './components/footer.php'; ?>
 
     <script>
         // JavaScript to toggle the visibility of the description

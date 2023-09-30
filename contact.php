@@ -6,7 +6,7 @@
     <link href="./dist/output.css" rel="stylesheet">
     <title>Contact Us</title>
 </head>
-<body class="h-screen bg-red-100">
+<body class="bg-red-100 mb-20">
     <?php include './components/navbar.php'; ?>
 
     <div class="flex-grow h-44 md:h-52 p-10">
@@ -40,5 +40,6 @@
             </div>
         </div>
     </div>
+    <?php include './components/footer.php'; ?>
 </body>
 </html>
