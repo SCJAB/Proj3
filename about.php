@@ -6,7 +6,7 @@
     <link href="./dist/output.css" rel="stylesheet">
     <title>About Us</title>
 </head>
-<body class="h-screen">
+<body class="h-screen bg-red-100">
     <?php include './components/navbar.php'; ?>
 
     <div>

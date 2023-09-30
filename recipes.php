@@ -6,7 +6,7 @@
     <link href="./dist/output.css" rel="stylesheet">
     <title>Recipes</title>
 </head>
-<body>
+<body class="bg-red-100">
     <?php include './components/navbar.php'; ?>
 
     <div class="grid grid-cols-1 mt-10 mx-10 gap-y-10 justify-items-center md:grid-cols-2 lg:grid-cols-5 lg:gap-x-5">

@@ -17,7 +17,7 @@
                 <ion-icon name="grid-outline" onclick="Menu(this)"></ion-icon>
             </span>
         </div>
-        <ul class="text-xs text-center mt-0 right-7 grid gap-y-4 z-[40] absolute bg-red-700 md:bg-white rounded-3xl p-5 opacity-0 top-[-400px] transition-all ease-in duration-500 md:text-lg md:flex md:mt-0 md:items-center md:flex-row md:gap-x-4 md:z-auto md:static md:w-auto md:opacity-100">
+        <ul class="text-xs text-center font-bold mt-0 right-7 grid gap-y-4 z-[40] absolute bg-red-700 md:bg-white rounded-3xl p-5 opacity-0 top-[-400px] transition-all ease-in duration-500 md:text-lg md:flex md:mt-0 md:items-center md:flex-row md:gap-x-4 md:z-auto md:static md:w-auto md:opacity-100">
             <li><a href="index.php" class="hover:text-black text-white md:text-black duration-500 md:hover:text-red-700">Home</a></li>
             <li><a href="about.php" class="hover:text-black text-white md:text-black duration-500 md:hover:text-red-700">About us</a></li>
             <li><a href="recipes.php" class="hover:text-black text-white md:text-black duration-500 md:hover:text-red-700">Recipes</a></li> 

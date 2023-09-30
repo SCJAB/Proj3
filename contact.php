@@ -6,37 +6,37 @@
     <link href="./dist/output.css" rel="stylesheet">
     <title>Contact Us</title>
 </head>
-<body class="h-screen">
+<body class="h-screen bg-red-100">
     <?php include './components/navbar.php'; ?>
 
-    <div class="flex-grow h-52 p-10 text-Cafe">
-        <?php echo '<h1 class="text-center text-7xl font-semibold">We\'re thrilled to hear from you.</h1>' ?>
-        <?php echo '<h2 class="text-center text-xl mt-4">Whether you have questions, suggestions, or just want to chat about coffee, we\'re here to listen. Feel free to reach out through the contact form.</h2>' ?>
+    <div class="flex-grow h-44 md:h-52 p-10">
+        <?php echo '<h1 class="text-center text-2xl md:text-4xl lg:text-5xl font-semibold">We\'re thrilled to hear from you.</h1>' ?>
+        <?php echo '<h2 class="text-center text-xs md:text-xl md:mt-4">If you have any inquiries, suggestions, or simply want to connect with us, don\'t hesitate to get in touch. You can reach out to us using our contact form, and we\'ll be delighted to hear from you.</h2>' ?>
     </div>
-    <div class="p-10 bg-Drab mx-44">
+    <div class="p-10 md:mx-20">
         <div class="">
-            <h1 class="text-DesertSand pb-10 text-xl">Get in touch</h1>
+            <h1 class="font-bold pb-5 text-sm md:text-xl">Get in touch</h1>
         </div>
         <div class="text-gray-800 flex flex-row">
-            <form action="" class="flex flex-col space-y-4 basis-2/4">
+            <form action="" class="flex flex-col space-y-4 basis-full md:basis-2/4">
                 <div>
-                    <input type="text" placeholder="Your name" class="ring-name ring-gray-300 w-[80%] rounded-md px-4 py-2 outline-none focus:ring-4 focus:ring-Cafe">
+                    <input type="text" placeholder="Your name" class="ring-name ring-gray-300 w-full md:w-[80%] rounded-md px-4 py-2 outline-none focus:ring-4 focus:ring-red-200">
                 </div>
                 <div>
-                    <input type="email" placeholder="Email Address" class="ring-name ring-gray-300 w-[80%] rounded-md px-4 py-2 outline-none focus:ring-4 focus:ring-Cafe">
+                    <input type="email" placeholder="Email Address" class="ring-name ring-gray-300 w-full md:w-[80%] rounded-md px-4 py-2 outline-none focus:ring-4 focus:ring-red-200">
                 </div>
                 <div>
-                    <input type="text" placeholder="Subject" class="ring-name ring-gray-300 w-[80%] rounded-md px-4 py-2 outline-none focus:ring-4 focus:ring-Cafe"> 
+                    <input type="text" placeholder="Subject" class="ring-name ring-gray-300 w-full md:w-[80%] rounded-md px-4 py-2 outline-none focus:ring-4 focus:ring-red-200"> 
                 </div>
                 <div>
-                    <textarea placeholder="Message" rows="8" class="ring-name ring-gray-300 w-[80%] rounded-md px-4 py-2 outline-none focus:ring-4 focus:ring-Cafe"></textarea>
+                    <textarea placeholder="Message" rows="5" class="ring-name ring-gray-300 w-full md:w-[80%] rounded-md px-4 py-2 outline-none focus:ring-4 focus:ring-red-200"></textarea>
                 </div>
-                <button class="inline-block self-start bg-Butterscotch text-Drab font-semibold rounded-lg px-6 py-3">
+                <button class="inline-block self-start bg-red-950 text-white text-sm md:text-base font-semibold rounded-lg px-6 py-3">
                     Send Message
                 </button>
             </form>
-            <div class="basis-2/4">
-                <img src="./images/Contact-image.jpg" class="rounded-xl mt-5">
+            <div class="hidden md:block md:basis-2/4">
+                <img src="./img/Pinoy Food.png" class="rounded-xl md:mt-10 lg:mt-0">
             </div>
         </div>
     </div>
